@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+        }
+
+        .main {
+            width: 100%;
+            height: 100vh;
+            background-image: url(https://images.pexels.com/photos/4727921/pexels-photo-4727921.jpeg?cs=srgb&dl=pexels-tim-mossholder-4727921.jpg&fm=jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.407);
+            background-blend-mode: overlay;
+        }
+
+        .navbar {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+
+
+        .btn1 {
+            padding: 4px 12px;
+            background-color: orangered;
+            font-size: 14px;
+            color: white;
+            border: none;
+        }
+
+        .desp {
+            width: 90%;
+            margin: 0 auto;
+            height: calc(100vh-66px);
+            display: flex;
+        }
+
+        .left {
+            width: 65%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+
+
+
+
+        .right {
+            width: 35%;
+        }
+
+        .box {
+            width: 75%;
+            margin-left: 60px;
+            padding: 24px 0px;
+            margin-top: 50px;
+            background-color: rgba(0, 0, 0, 0.733);
+            height: 140%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 12px;
+        }
+
+        .btn3 {
+            padding: 5px 22px;
+            width: 49%;
+            background-color: white;
+            color: rgb(255, 77, 0);
+            font-size: 18px;
+            letter-spacing: 1.2px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .box input {
+            width: 85%;
+            border: none;
+            padding: 6px 5px;
+            background-color: transparent;
+            border-bottom: 2px solid orangered;
+        }
+
+        .btn4 {
+            padding: 7px 32px;
+            font-size: 15px;
+            letter-spacing: 1.1px;
+            background-color: orangered;
+            border: none;
+            width: 40%;
+            border-radius: 10px;
+            color: black;
+            margin-top: 10px;
+        }
+
+        .box p {
+            width: 80%;
+            text-align: center;
+        }
+
+        .signup {
+            color: red;
+            margin-left: 30px;
+        }
+
+        .box ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            gap: 14px;
+            font-size: 22px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+
+
+        </div>
+        <div class="desp">
+            <div class="left">
+
+
+            </div>
+            <div class="right">
+                <div class="box">
+                    <button class="btn3">Login Page</button>
+                    <input type="text" placeholder="Enter Email Here" />
+                    <input type="text" placeholder="Enter Password Here" />
+                    <button class="btn4">Login</button>
+                    <p>
+                        Don't have an account? <span class="signup">Sign Up</span> here
+                    </p>
+                    <p>Log in with</p>
+                    <ul>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-google"></i></li>
+                        <li><i class="fa-brands fa-skype"></i></li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
